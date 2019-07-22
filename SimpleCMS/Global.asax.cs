@@ -1,5 +1,8 @@
-﻿using System;
+﻿using SimpleCMS.Migrations;
+using SimpleCMS.Models;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -13,6 +16,7 @@ namespace SimpleCMS
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ApplicationDbContext, Configuration>());
         }
     }
 }
