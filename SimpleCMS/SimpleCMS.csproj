@@ -6373,6 +6373,7 @@
     <Content Include="Sencha\ext\sass\etc\extensions.js" />
     <Content Include="Sencha\ext\sass\example\fashion.html" />
     <Content Include="Sencha\index.html" />
+    <Content Include="Sencha\overrides\util\Sorter.js" />
     <Content Include="Sencha\sass\example\bootstrap.css" />
     <Content Include="Sencha\sass\example\bootstrap.js" />
     <Content Include="Sencha\sass\example\custom.js" />
@@ -8242,7 +8243,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Sencha\build\production\SimppleCMS\archive\" />
     <Folder Include="Sencha\build\production\SimppleCMS\deltas\" />
-    <Folder Include="Sencha\overrides\" />
     <Folder Include="Sencha\packages\" />
   </ItemGroup>
   <ItemGroup>

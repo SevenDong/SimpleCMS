@@ -9,6 +9,7 @@ Ext.application({
     extend: 'SimppleCMS.Application',
 
     requires: [
+        'Overrides.*',
         'SimppleCMS.view.main.Main'
     ],
 
