@@ -3,15 +3,17 @@
  * calls Ext.application(). This is the ideal place to handle application launch and
  * initialization details.
  */
-Ext.define('SimppleCMS.Application', {
+Ext.define('SimpleCMS.Application', {
     extend: 'Ext.app.Application',
-    
-    name: 'SimppleCMS',
 
+    name: 'SimpleCMS',
+    requires: [
+        'SimpleCMS.locale.Locale'
+    ],
     stores: [
         // TODO: add global / shared stores here
     ],
-    
+
     launch: function () {
         // TODO - Launch the application
         Ext.util.Format.defaultValue = function (value, defaultValue) {
@@ -20,7 +22,7 @@ Ext.define('SimppleCMS.Application', {
     },
 
     onAppUpdate: function () {
-        Ext.Msg.confirm('Application Update', 'This application has an update, reload?',
+        Ext.Msg.confirm(I18N.ApplicationUpdate, I18N.ApplicationUpdateMsg,
             function (choice) {
                 if (choice === 'yes') {
                     window.location.reload();

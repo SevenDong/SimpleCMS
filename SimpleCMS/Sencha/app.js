@@ -4,23 +4,30 @@
  * Sencha Cmd when upgrading.
  */
 Ext.application({
-    name: 'SimppleCMS',
+    name: 'SimpleCMS',
 
-    extend: 'SimppleCMS.Application',
+    extend: 'SimpleCMS.Application',
 
     requires: [
         'Overrides.*',
-        'SimppleCMS.view.main.Main'
+        'SimpleCMS.locale.Locale',
+        'SimpleCMS.locale.zh_CN',
+        'SimpleCMS.util.Config',
+        'SimpleCMS.util.Url',
+        'SimpleCMS.util.State',
+        'SimpleCMS.util.Toast',
+        'SimpleCMS.ux.*',
+        'SimpleCMS.view.main.Main'
     ],
 
     // The name of the initial view to create. With the classic toolkit this class
     // will gain a "viewport" plugin if it does not extend Ext.Viewport. With the
     // modern toolkit, the main view will be added to the Viewport.
     //
-    mainView: 'SimppleCMS.view.main.Main'
-	
+    mainView: 'SimpleCMS.view.main.Main'
+
     //-------------------------------------------------------------------------
-    // Most customizations should be made to SimppleCMS.Application. If you need to
+    // Most customizations should be made to SimpleCMS.Application. If you need to
     // customize this file, doing so below this section reduces the likelihood
     // of merge conflicts when upgrading to new versions of Sencha Cmd.
     //-------------------------------------------------------------------------

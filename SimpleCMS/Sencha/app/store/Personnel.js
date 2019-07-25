@@ -1,4 +1,4 @@
-Ext.define('SimppleCMS.store.Personnel', {
+Ext.define('SimpleCMS.store.Personnel', {
     extend: 'Ext.data.Store',
 
     alias: 'store.personnel',

@@ -5,7 +5,7 @@
  *
  * TODO - Replace this content of this view to suite the needs of your application.
  */
-Ext.define('SimppleCMS.view.main.Main', {
+Ext.define('SimpleCMS.view.main.Main', {
     extend: 'Ext.tab.Panel',
     xtype: 'app-main',
 
@@ -13,9 +13,9 @@ Ext.define('SimppleCMS.view.main.Main', {
         'Ext.plugin.Viewport',
         'Ext.window.MessageBox',
 
-        'SimppleCMS.view.main.MainController',
-        'SimppleCMS.view.main.MainModel',
-        'SimppleCMS.view.main.List'
+        'SimpleCMS.view.main.MainController',
+        'SimpleCMS.view.main.MainModel',
+        'SimpleCMS.view.main.List'
     ],
 
     controller: 'main',

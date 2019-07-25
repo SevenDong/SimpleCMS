@@ -1,12 +1,12 @@
 /**
  * This view is an example list of people.
  */
-Ext.define('SimppleCMS.view.main.List', {
+Ext.define('SimpleCMS.view.main.List', {
     extend: 'Ext.grid.Panel',
     xtype: 'mainlist',
 
     requires: [
-        'SimppleCMS.store.Personnel'
+        'SimpleCMS.store.Personnel'
     ],
 
     title: 'Personnel',
