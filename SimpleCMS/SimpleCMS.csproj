@@ -154,7 +154,6 @@
   <ItemGroup>
     <Content Include="App_Readme\Elmah.txt" />
     <Content Include="Global.asax" />
-    <Content Include="index.html" />
     <Content Include="Sencha\.sencha\app\Boot.js" />
     <Content Include="Sencha\.sencha\app\bootstrap-impl.xml" />
     <Content Include="Sencha\.sencha\app\build-impl.xml" />
