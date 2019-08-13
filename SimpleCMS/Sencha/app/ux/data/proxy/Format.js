@@ -20,7 +20,7 @@
     },
 
     listeners: {
-        exception: failed.proxy
+        exception: FAILED.proxy
     }
 
 

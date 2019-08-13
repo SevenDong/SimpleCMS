@@ -154,6 +154,7 @@
   <ItemGroup>
     <Content Include="App_Readme\Elmah.txt" />
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
     <Content Include="Sencha\.sencha\app\Boot.js" />
     <Content Include="Sencha\.sencha\app\bootstrap-impl.xml" />
     <Content Include="Sencha\.sencha\app\build-impl.xml" />
@@ -183,7 +184,7 @@
     <Content Include="Sencha\app\util\State.js" />
     <Content Include="Sencha\app\util\Toast.js" />
     <Content Include="Sencha\app\util\Url.js" />
-    <Content Include="Sencha\app\ux\data\proxy\Foramt.js" />
+    <Content Include="Sencha\app\ux\data\proxy\Format.js" />
     <Content Include="Sencha\app\ux\form\field\VType.js" />
     <Content Include="Sencha\app\view\main\List.js" />
     <Content Include="Sencha\app\view\main\Main.js" />
